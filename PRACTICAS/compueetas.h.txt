@@ -1,0 +1,15 @@
+
+
+#endif#ifndef COMPUERTAS_H
+#define COMPUERTAS_H
+
+inline int AND(int a, int b) { return a && b; }
+inline int OR(int a, int b) { return a || b; }
+inline int NOT(int a) { return !a; }
+inline int NAND(int a, int b) { return !(a && b); }
+inline int NOR(int a, int b) { return !(a || b); }
+inline int XOR(int a, int b) { return a != b; }
+inline int XNOR(int a, int b) { return a == b; }
+inline int Buffer(int a) { return a; }
+
+#endif
